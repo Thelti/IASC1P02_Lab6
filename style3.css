@@ -1,0 +1,39 @@
+body{
+	background-color:black;
+}
+#wrapper{
+	background-color:green;
+	height:700px;
+	width:99%;
+	border-style: solid;
+	border-color:white;
+	border-width: 5px;
+}
+
+#c1{
+	position:absolute;
+	background-color:blue;
+	height: 250px;
+	width: 250px;
+	z-index:5;
+	top: 70px;
+	left: 280px;
+}
+#c2{
+	position:absolute;
+	background-color:red;
+	height: 250px;
+	width: 250px;
+	z-index:5;
+	top: 70px;
+	right: 280px;
+}
+#c3{
+	position:absolute;
+	background-color:yellow;
+	height: 250px;
+	width: 250px;
+	z-index:5;
+	left: 600px;
+	bottom: 250px;
+}
